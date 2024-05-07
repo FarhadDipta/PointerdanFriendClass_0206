@@ -41,6 +41,6 @@ int main()
     joko.setNama("Joko Susilo");
     siswa joko_siswa;
     joko_siswa.setId(1);
-    joko_siswa.displayAll(joko);
+    joko_siswa.displayAll(joko); 
     return 0;
 }

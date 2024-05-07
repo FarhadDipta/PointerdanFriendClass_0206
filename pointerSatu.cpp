@@ -4,7 +4,7 @@ using namespace std;
 class persegiPanjang
 {
 public:
-    int panjang, lebarl;
+    int panjang, lebar;
     int luasPersegiPanjang(int b, int a)
     {
         return a * b;
@@ -13,7 +13,12 @@ public:
 
 class segitiga
 {
-
+public:
+    int alas, tinggi;
+    int luasSegitiga(int a, int t)
+    {
+        return (a * t) / 2;
+    }
 };
 
 int main(){
